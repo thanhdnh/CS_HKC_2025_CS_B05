@@ -1,0 +1,14 @@
+/Users/hoangthanh/CS_2025_HKC/CS/B05/bin/Debug/net9.0/B05
+/Users/hoangthanh/CS_2025_HKC/CS/B05/bin/Debug/net9.0/B05.deps.json
+/Users/hoangthanh/CS_2025_HKC/CS/B05/bin/Debug/net9.0/B05.runtimeconfig.json
+/Users/hoangthanh/CS_2025_HKC/CS/B05/bin/Debug/net9.0/B05.dll
+/Users/hoangthanh/CS_2025_HKC/CS/B05/bin/Debug/net9.0/B05.pdb
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.AssemblyInfoInputs.cache
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.AssemblyInfo.cs
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.csproj.CoreCompileInputs.cache
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.dll
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/refint/B05.dll
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.pdb
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/B05.genruntimeconfig.cache
+/Users/hoangthanh/CS_2025_HKC/CS/B05/obj/Debug/net9.0/ref/B05.dll
