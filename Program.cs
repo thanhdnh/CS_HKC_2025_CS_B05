@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Security.Cryptography.X509Certificates;
+
+internal class Program
 {
     static double TinhTong(double a, double b)
     {
@@ -55,11 +57,56 @@
         Swap(ref x, ref y);
         Console.WriteLine($"x={x}, y={y}");
         */
+        /*
         Console.Write("Nhap ban kinh hinh tron: ");
         double r = double.Parse(Console.ReadLine());
         double C, S;
         TinhHinhTron(r, out C, out S);
         Console.WriteLine($"Chu vi: {C}");
         Console.WriteLine($"Dien tich: {S}");
+        */
+
+    }
+    static void Solve2OrderEqn(double a, double b, double c)
+    {
+        /*Console.WriteLine("Nhap so a,b,c:");
+        a = double.Parse(Console.ReadLine());
+        b = double.Parse(Console.ReadLine());
+        c = double.Parse(Console.ReadLine());*/
+        double delta = b * b - 4 * a * c;
+
+        if (a == 0)
+        {
+            if (b == 0)
+            {
+                if (c == 0)
+                {
+                    Console.WriteLine("Phương trình vô số nghiệm ");
+                }
+                else
+                {
+                    Console.WriteLine("Phương trình vô nghiệm ");
+                }
+            }
+            else
+            {
+                double x = -c / b;
+                Console.WriteLine("Phương trình 1 nghiệm " + x);
+            }
+        }
+        if (delta < 0)
+            Console.WriteLine("Phương trình vô nghiệm");
+        if (delta == 0)
+        {
+            double x = -b / (2 * a);
+
+            Console.WriteLine($"Phương trình có nghiệp kép x1 = x2 = {x}");
+        }
+        if (delta > 0)
+        {
+            double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            Console.WriteLine($"Phương trình có 2 nghiệm Phân biệt x1 = {x1},x2={x2}");
+        }    
     }
 }
